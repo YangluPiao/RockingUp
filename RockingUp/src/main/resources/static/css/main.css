@@ -10,6 +10,8 @@ html,body {
 }
 
 body {
+    background-image: url("https://blog.jostle.me/hs-fs/hub/1842135/file-3900278471-jpg/blog-files/chats.jpg");
+    background-size:contain;
     margin: 0;
     padding: 0;
     font-weight: 400;
@@ -21,16 +23,18 @@ body {
     height: 100%;
 }
 
+/*
 body:before {
     height: 50%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background: #128ff2;
+    background: #33FFC4;
     content: "";
     z-index: 0;
 }
+*/
 
 .clearfix:after {
     display: block;
@@ -109,12 +113,11 @@ button.accent {
 }
 
 .username-page-container {
-    background: #fff;
+	background: #fff;
     box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
     border-radius: 2px;
     width: 100%;
     max-width: 500px;
-    display: inline-block;
     margin-top: 42px;
     vertical-align: middle;
     position: relative;
