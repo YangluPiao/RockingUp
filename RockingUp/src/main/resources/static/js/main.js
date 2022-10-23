@@ -48,7 +48,7 @@ function onError(error) {
 }
 
 function sendMessage(event) {
-	alert("Sending message from web browser -- > Server");
+	// alert("Sending message from web browser -- > Server");
 	var messageContent = messageInput.value.trim();
 	if (messageContent && stompClient) {
 		var chatMessage = {
